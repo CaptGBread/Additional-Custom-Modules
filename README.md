@@ -10,7 +10,7 @@ Additional custom modules for Zen Nebula to my own liking. I created this solely
 
 This is my personal repository. All the original code belongs to their respective owner. I modified them to fits my needs.
 
-###Credits
+### Credits
 - [Zen Minimal Ext Menu](https://github.com/Dinno-DEV/zen-minimal-exit-menu) by Dinno-DEV
 - [Zen Better New Tab Button](https://github.com/themaster5209/zen-better-new-tab-button) by themaster5209
-- Custom Toolbar Icon. I actually wrote this one myslef. SVG retrieved from https://icon-sets.iconify.design/. I forgot which one.
+- Custom Toolbar Icon. I actually wrote this one myself. SVG retrieved from https://icon-sets.iconify.design/. I forgot which one.
