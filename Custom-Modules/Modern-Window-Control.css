@@ -1,0 +1,69 @@
+/* Code below is copy pasted from Zen Minimal Exit menu mod by Dinno-DEV, modified to my preference by myself */
+@-moz-document url-prefix("chrome:") {
+  #navigator-toolbox[zen-right-side="true"] > #zen-sidebar-top-buttons > .titlebar-buttonbox-container > .titlebar-buttonbox {
+      margin-top: 11px !important;
+}
+}
+
+/* Move to the left */
+      @media (-moz-bool-pref: "zen.view.experimental-force-window-controls-left") {
+		  .titlebar-buttonbox-container {
+		  order: -1 !important;
+		  margin-right: 4px !important;}
+	  }
+  
+  .titlebar-button {
+      padding: 0px !important;
+      min-height: 13px !important;
+      min-width: 13px !important;
+      height: 13px !important;
+      align-self: center;
+      margin-left: 5px !important;
+      border-radius: 50px;
+      transition: all 100ms;
+	  font-size: 0!important;
+  }
+ 
+ /* Close button to the first left */
+  .titlebar-close {
+      background-color: hsl(0, 50%, 50%) !important;
+	  order: -1 !important;
+  } 
+ 
+/* Minimize button to the last */ 
+  .titlebar-min {
+      background-color: hsl(130, 50%, 40%) !important;
+	  order: 1 !important;
+  }
+  
+  .titlebar-max, .titlebar-restore {
+      background-color: hsl(60, 50%, 50%) !important;
+  }
+  
+/* Hover Animation */
+      .titlebar-button {
+          background-color: var(--zen-toolbar-element-bg) !important;
+          /*opacity: 0.25 !important;*/
+      }
+      
+      .titlebar-min:hover {
+          background-color: hsl(55, 75%, 50%) !important;
+          box-shadow: 0px 0px 5px 0px #e9de63;
+          opacity: 1 !important;
+      }
+  
+      .titlebar-max:hover, .titlebar-restore:hover {
+          background-color: hsl(130, 50%, 50%) !important;
+          box-shadow: 0px 0px 5px 0px #9fdfaa;
+          opacity: 1 !important;
+      }
+  
+      .titlebar-close:hover {
+          background-color: hsl(355, 70%, 51%) !important;
+          box-shadow: 0px 0px 5px 0px #e46772;
+          opacity: 1 !important;
+      }
+      
+      .titlebar-button:hover {
+          min-height: 20px !important;
+      }

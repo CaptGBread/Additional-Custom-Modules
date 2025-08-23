@@ -1,0 +1,93 @@
+/* Original code by themaster5209, modified to my own liking and for use with Nebula */
+/* Hide the New Tab text */
+#tabs-newtab-button.toolbarbutton-1 .toolbarbutton-text,
+#tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon + .toolbarbutton-text {
+    display: none !important;
+}
+
+.workspace-arrowscrollbox:has(.zen-workspace-pinned-tabs-section:not([hide-separator])) {
+    /* Spacing tweaks for New Tab button and pinned tabs, thanks to CosmoCreeper */
+    #tabs-newtab-button.toolbarbutton-1 {
+        position: relative !important;
+        top: -3px !important;
+        margin-top: 9px !important;
+    }
+
+    /* Spacing tweak for New Tab button and the divider, thanks to CosmoCreeper */
+    .pinned-tabs-container-separator {
+        margin-bottom: 1px !important;
+        margin-top: 5px !important;
+    }
+}
+
+.zen-workspace-pinned-tabs-section[hide-separator] .pinned-tabs-container-separator {
+    margin-top: 3px !important;
+}
+
+/* ---------- Additional effect to my Liking to comply Nebula ---------*/
+/* match nebula coloring, very dependent on Nebula bcz using var(--nebula */
+/* Base style for new tab button, yoinked from Nebula tabstyle module */
+#tabbrowser-tabs
+#tabs-newtab-button.toolbarbutton-1 {
+    background-color: var(--nebula-color) !important;
+    box-shadow: 0 0px 3px transparent !important;
+    border-radius: var(--nebula-border-radius) !important;
+    position: relative !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* hover transition effect */
+#tabbrowser-tabs
+#tabs-newtab-button.toolbarbutton-1:hover {
+    background: var(--nebula-color-hover) !important;
+    box-shadow: 0 0px 3px light-dark(rgba(255, 255, 255, 0.055), rgba(0, 0, 0, 0.55)) !important;
+}
+
+/* gradient click effect */
+#tabs-newtab-button.toolbarbutton-1:active {
+	position: relative !important;
+  overflow: hidden !important;
+  border-radius: calc(var(--nebula-border-radius) + 1px);
+}
+
+#tabs-newtab-button.toolbarbutton-1:active::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0.2 !important;
+  height: 150%;
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--zen-primary-color) 10%, black),
+    var(--zen-primary-color),
+    color-mix(in srgb, var(--zen-primary-color) 25%, white),
+    var(--zen-primary-color),
+    light-dark(#fffd, #000d),
+    light-dark(#fffd, #000d),
+    var(--zen-primary-color),
+    color-mix(in srgb, var(--zen-primary-color) 50%, white),
+    color-mix(in srgb, var(--zen-primary-color) 25%, white),
+    var(--zen-primary-color),
+    color-mix(in srgb, var(--zen-primary-color) 25%, black),
+    light-dark(#fffd, #000d),
+    color-mix(in srgb, var(--zen-primary-color) 10%, black),
+    light-dark(#fffd, #000d),
+    color-mix(in srgb, var(--zen-primary-color) 75%, black),
+    color-mix(in srgb, var(--zen-primary-color) 50%, black),
+    color-mix(in srgb, var(--zen-primary-color) 25%, black),
+    color-mix(in srgb, var(--zen-primary-color) 10%, black),
+    light-dark(#fffd, #000d)
+  );
+  background-size: 200% 400%;
+  pointer-events: none;
+  animation: animateGlow 5s cubic-bezier(0.1, 0.7, 0.5, 0.1) infinite;
+  transition: all 0.3s ease-in-out !important;
+}
+
+@keyframes animateGlow {
+  0%   { background-position: 0% 20%; }
+  100% { background-position: 200% 20%; }
+}
