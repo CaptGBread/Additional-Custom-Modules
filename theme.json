@@ -1,0 +1,13 @@
+{
+  "id": "1xo4wfbke-54iu9uign-ttm7mwdat",
+  "homepage": "https://github.com/CaptGBread/Additional-Custom-Modules",
+  "author": "CaptGBread",
+  "name": "Additional Custom Modules",
+  "version": "1.0.0",
+  "description": "Additional custom modules to fullfill my preferences and needs.",
+  "readme" : "https://github.com/CaptGBread/Additional-Custom-Modules/main/README.md"
+  "image" : "https://github.com/user-attachments/assets/cbab82d0-0b84-4413-a438-0846ef74e80a"
+  "style" : {
+	  "chrome" : "https://raw.githubusercontent.com/CaptGBread/Additional-Custom-Modules/main/userChrome.css"
+  } 
+}
