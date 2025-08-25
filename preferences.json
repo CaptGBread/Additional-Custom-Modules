@@ -10,16 +10,17 @@
     "property": "additionalcm.newtab_button",
     "label": "Custom New Tab Button",
     "type": "checkbox",
-    "defaultValue": true
+    "defaultValue": false
   },
 
 {
     "property": "additionalcm.disable_tint",
     "label": "Disable Zen Dark Tint",
     "type": "checkbox",
-    "defaultValue": true
+    "defaultValue": false
   }
 
 ]
+
 
 
