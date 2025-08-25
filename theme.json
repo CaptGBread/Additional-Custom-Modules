@@ -1,5 +1,5 @@
 {
-  "id": "1xo4wfbke-54iu9uign-ttm7mwdat",
+  "id": "57b3e026-84ac-4016-95fe-e7de3c23e9d3",
   "homepage": "https://github.com/CaptGBread/Additional-Custom-Modules",
   "author": "CaptGBread",
   "name": "Additional Custom Modules",
@@ -10,4 +10,5 @@
   "style" : {
 	  "chrome" : "https://raw.githubusercontent.com/CaptGBread/Additional-Custom-Modules/main/userChrome.css"
   } 
+
 }
