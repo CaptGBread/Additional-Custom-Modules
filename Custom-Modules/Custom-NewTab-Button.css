@@ -1,6 +1,6 @@
 /* Original code by themaster5209, modified to my own liking and for use with Nebula */
 /* Hide the New Tab text */
-@media -moz-pref( "additionalcm.newtab_button") {
+@media -moz-pref("additionalcm.newtab_button") {
 #tabs-newtab-button.toolbarbutton-1 .toolbarbutton-text,
 #tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon + .toolbarbutton-text {
     display: none !important;
