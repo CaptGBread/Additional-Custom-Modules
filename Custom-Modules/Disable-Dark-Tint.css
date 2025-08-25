@@ -1,7 +1,8 @@
 /* Disable Zen dark tint */
 :root {
-	@media -moz-pref( "additionalcm.disable_tint") {
+	@media -moz-pref("additionalcm.disable_tint") {
     --zen-main-browser-background: 
       #00000000 !important;
 	}
+
 }
