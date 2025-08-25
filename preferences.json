@@ -7,27 +7,35 @@
   },
 
 {
+    "property": "additionalcm.window_control",
+    "label": "Custom Window Control Button",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+
+{
     "property": "additionalcm.icon_toolbar",
     "label": "Custom Toolbar Icon",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": true
   },
 
 {
     "property": "additionalcm.newtab_button",
     "label": "Custom New Tab Button",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": true
   },
 
 {
     "property": "additionalcm.disable_tint",
     "label": "Disable Zen Dark Tint",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": true
   }
 
 ]
+
 
 
 
