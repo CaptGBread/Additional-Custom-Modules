@@ -28,7 +28,7 @@
   },
 
 {
-    "property": "additionalcm.fullscreen_compact",
+    "property": "additionalcm.fullscreen-compact",
     "label": "Fullscreen Compact Mode",
     "type": "checkbox",
     "defaultValue": true
@@ -42,6 +42,7 @@
   }
 
 ]
+
 
 
 
