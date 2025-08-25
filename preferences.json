@@ -8,10 +8,10 @@
 
 {
     "property": "additionalcm.newtab_button",
-    "label": "Disable Zen Dark Tint",
+    "label": "Custom New Tab Button",
     "type": "checkbox",
     "defaultValue": true
-  }
+  },
 
 {
     "property": "additionalcm.disable_tint",
@@ -21,4 +21,5 @@
   }
 
 ]
+
 
