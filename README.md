@@ -9,10 +9,11 @@ Additional custom modules for [Zen Nebula](https://github.com/JustADumbPrsn/Zen-
 - Clean New Tab Button
 - Disable Zen Dark Tint
 
-This is my personal repository. All the original code belongs to their respective owner. I modified them to fits my needs.
+This is my personal repository. All of the original codes belong to each their respective owners. I only modified them to fits my needs.
 
 ### Credits
 - [Zen Minimal Ext Menu](https://github.com/Dinno-DEV/zen-minimal-exit-menu) by Dinno-DEV
 - [Zen Better New Tab Button](https://github.com/themaster5209/zen-better-new-tab-button) by themaster5209
+- [Arcline](https://github.com/ferrocyante/Arcline) by ferrocyante
 - [Transparent Zen](https://github.com/sameerasw/zen-themes/tree/main/TransparentZen) by sameerasw
 - https://icon-sets.iconify.design/ SVG used for Custom Toolbar Icon
