@@ -6,6 +6,12 @@
     "size": "20px"
   },
 
+{
+    "property": "additionalcm.window_control",
+    "label": "Custom Window Control",
+    "type": "checkbox",
+    "defaultValue": true
+  },
 
 {
     "property": "additionalcm.toolbar_icon",
@@ -29,6 +35,7 @@
   }
 
 ]
+
 
 
 
