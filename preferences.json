@@ -7,10 +7,18 @@
   },
 
 {
+    "property": "additionalcm.newtab_button",
+    "label": "Disable Zen Dark Tint",
+    "type": "checkbox",
+    "defaultValue": true
+  }
+
+{
     "property": "additionalcm.disable_tint",
     "label": "Disable Zen Dark Tint",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": true
   }
 
 ]
+
