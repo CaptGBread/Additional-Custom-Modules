@@ -5,9 +5,6 @@
 }
 }
 
-:root {
-@media -moz-pref("additionalcm.window-control") {
-
 /* Move to the left */
       @media (-moz-bool-pref: "zen.view.experimental-force-window-controls-left") {
 		  .titlebar-buttonbox-container {
@@ -70,5 +67,3 @@
       .titlebar-button:hover {
           min-height: 20px !important;
       }
-}
-}
