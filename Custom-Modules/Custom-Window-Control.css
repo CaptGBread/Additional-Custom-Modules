@@ -1,9 +1,5 @@
 /* Code below is copy pasted from Zen Minimal Exit menu mod by Dinno-DEV, modified to my preference by myself */
-@-moz-document url-prefix("chrome:") {
-  #navigator-toolbox[zen-right-side="true"] > #zen-sidebar-top-buttons > .titlebar-buttonbox-container > .titlebar-buttonbox {
-      margin-top: 11px !important;
-}
-}
+@media -moz-pref("additionalcm.window_control") {
 
 /* Move to the left */
       @media (-moz-bool-pref: "zen.view.experimental-force-window-controls-left") {
@@ -67,3 +63,4 @@
       .titlebar-button:hover {
           min-height: 20px !important;
       }
+}
