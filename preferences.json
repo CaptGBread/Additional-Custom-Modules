@@ -6,6 +6,14 @@
     "size": "20px"
   },
 
+
+{
+    "property": "additionalcm.toolbar_icon",
+    "label": "Custom Toolbar Icon",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+
 {
     "property": "additionalcm.newtab_button",
     "label": "Custom New Tab Button",
@@ -21,6 +29,7 @@
   }
 
 ]
+
 
 
 
