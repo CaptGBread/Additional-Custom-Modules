@@ -5,6 +5,7 @@
 }
 }
 
+:root {
 @media -moz-pref("additionalcm.window-control") {
 
 /* Move to the left */
@@ -69,4 +70,5 @@
       .titlebar-button:hover {
           min-height: 20px !important;
       }
+}
 }
