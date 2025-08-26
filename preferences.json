@@ -1,7 +1,7 @@
 [
 {
     "type": "text",
-    "label": "⚙️ Preferences Settings",
+    "label": "Preferences Settings",
     "margin": "30px 0 15px 0",
     "size": "20px"
   },
@@ -14,10 +14,17 @@
   },
 
 {
-    "property": "additionalcm.toolbar_icon",
-    "label": "Custom Toolbar Icon",
+    "property": "additionalcm.toolbar_icon_alt",
+    "label": "Custom Toolbar Icon (For Arc 2.0)",
     "type": "checkbox",
-    "defaultValue": true
+    "defaultValue": false
+  },
+
+{
+    "property": "additionalcm.toolbar_icon",
+    "label": "Custom Toolbar Icon (For Nebula)",
+    "type": "checkbox",
+    "defaultValue": false
   },
 
 {
@@ -31,7 +38,7 @@
     "property": "additionalcm.fullscreen-compact",
     "label": "Fullscreen Compact Mode",
     "type": "checkbox",
-    "defaultValue": true
+    "defaultValue": false
   },
 
 {
@@ -42,6 +49,7 @@
   }
 
 ]
+
 
 
 
