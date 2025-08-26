@@ -1,6 +1,6 @@
 /* Original code by themaster5209*/
 /* Hide the New Tab text */
-@media -moz-pref("additionalcom.newtab-button-alt") {
+@media -moz-pref("additionalcom.newtab_button_alt") {
 #tabs-newtab-button.toolbarbutton-1 .toolbarbutton-text,
 #tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon + .toolbarbutton-text {
     display: none !important;
