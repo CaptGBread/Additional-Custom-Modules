@@ -28,10 +28,17 @@
   },
 
 {
-    "property": "additionalcm.newtab_button",
-    "label": "Custom New Tab Button",
+    "property": "additionalcm.newtab_button_alt",
+    "label": "Custom New Tab Button (For Arc 2.0)",
     "type": "checkbox",
     "defaultValue": true
+  },
+
+{
+    "property": "additionalcm.newtab_button",
+    "label": "Custom New Tab Button (For Nebula)",
+    "type": "checkbox",
+    "defaultValue": false
   },
 
 {
@@ -49,6 +56,7 @@
   }
 
 ]
+
 
 
 
