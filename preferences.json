@@ -15,37 +15,16 @@
 
 {
     "property": "additionalcm.toolbar_icon_alt",
-    "label": "Custom Toolbar Icon (For Arc 2.0)",
-    "type": "checkbox",
-    "defaultValue": false
-  },
-
-{
-    "property": "additionalcm.toolbar_icon",
-    "label": "Custom Toolbar Icon (For Nebula)",
+    "label": "Custom Toolbar Icon",
     "type": "checkbox",
     "defaultValue": false
   },
 
 {
     "property": "additionalcm.newtab_button_alt",
-    "label": "Custom New Tab Button (For Arc 2.0)",
+    "label": "Custom New Tab Button",
     "type": "checkbox",
     "defaultValue": true
-  },
-
-{
-    "property": "additionalcm.newtab_button",
-    "label": "Custom New Tab Button (For Nebula)",
-    "type": "checkbox",
-    "defaultValue": false
-  },
-
-{
-    "property": "additionalcm.fullscreen-compact",
-    "label": "Fullscreen Compact Mode",
-    "type": "checkbox",
-    "defaultValue": false
   },
 
 {
@@ -56,6 +35,7 @@
   }
 
 ]
+
 
 
 
