@@ -1,9 +1,9 @@
 # Additional-Custom-Modules
-Additional custom modules for [Zen Nebula](https://github.com/JustADumbPrsn/Zen-Nebula) to my own liking. I created this solely because I want to use it easily with Sine.
+Additional custom modules to my own liking. I created this solely because I want to use it easily with Sine.
 
-<img width="1366" height="768" alt="Screenshot 2025-08-20 171800" src="https://github.com/user-attachments/assets/cbab82d0-0b84-4413-a438-0846ef74e80a" />
+<img width="1178" height="680" alt="Screenshot 2025-08-28 223232" src="https://github.com/user-attachments/assets/f935e6d3-7c5f-4096-9936-ff20ae6d96f8" />
 
-### Features 
+### Features
 - Custom Toolbar Icon
 - Modified Window Control Button
 - Clean New Tab Button
