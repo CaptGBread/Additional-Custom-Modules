@@ -1,0 +1,16 @@
+@-moz-document url-prefix("chrome:") {  
+  body:has([zen-compact-mode="true"]) #titlebar {
+    background: light-dark(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)) !important;
+    backdrop-filter: blur(32px) saturate(140%) !important;
+	border: 0.75px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .unified-extensions-item {
+    box-shadow: none !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+  }
+  
+  .unified-extensions-item:hover {
+    box-shadow: none !important;
+  }
+}
