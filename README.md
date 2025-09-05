@@ -22,10 +22,12 @@ This is my personal repository. All of the original codes belong to each their r
 
 ### Custom CSS Snippets for Bonjourr
 I use Bonjourr for my newtab page, and I decided to sprinkle some CSS on top of it because why not.
-<details>
-<summary> Show CSS
 
-```
+<details>
+	
+<summary> Show CSS </summary>
+
+```css
 /* =====Quick Link Hover Effect===== */
 .link {
   transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
