@@ -28,13 +28,6 @@
   },
 
 {
-    "property": "additionalcm.sidebar_tweaks",
-    "label": "Sidebar Tweaks",
-    "type": "checkbox",
-    "defaultValue": false
-  },
-
-{
     "property": "additionalcm.disable_tint",
     "label": "Disable Zen Dark Tint",
     "type": "checkbox",
@@ -42,6 +35,7 @@
   }
 
 ]
+
 
 
 
