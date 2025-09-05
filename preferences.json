@@ -28,6 +28,13 @@
   },
 
 {
+    "property": "additionalcm.fullscreen-compact",
+    "label": "Full Screen Compact Mode",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+
+{
     "property": "additionalcm.disable_tint",
     "label": "Disable Zen Dark Tint",
     "type": "checkbox",
@@ -35,6 +42,7 @@
   }
 
 ]
+
 
 
 
