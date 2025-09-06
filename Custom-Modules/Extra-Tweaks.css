@@ -11,6 +11,10 @@
 		--nebula-color-hover: light-dark(rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.25)) !important; /* color when hovered */
 		--nebula-color-selected: light-dark(rgba(255, 255, 255, 0.45), rgba(0, 0, 0, 0.35)) !important; /* color when selected  */
 	}
+
+	#urlbar[open] > #urlbar-background {
+		background: var(--nebula-color-selected) !important;
+	}
 	
 /* URL Bar Tweaks */
 	#urlbar .urlbar-input,
@@ -21,4 +25,5 @@
 		text-align: center !important;
 		position: relative;
 	}
+
 }
