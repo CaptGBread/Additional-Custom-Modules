@@ -1,0 +1,24 @@
+@media -moz-pref("additionalcm.extra-tweaks") {
+/* Color Tweaks*/
+	.urlbarView-body-inner {
+	  #urlbar[open] > .urlbarView > .urlbarView-body-outer > & {
+		border-top: 1px solid rgba(255, 255, 255, 0.25) !important;
+	  }
+	}
+
+	:root {
+		--nebula-color: light-dark(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.175)) !important; /* default color */
+		--nebula-color-hover: light-dark(rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.25)) !important; /* color when hovered */
+		--nebula-color-selected: light-dark(rgba(255, 255, 255, 0.45), rgba(0, 0, 0, 0.35)) !important; /* color when selected  */
+	}
+	
+/* URL Bar Tweaks */
+	#urlbar .urlbar-input,
+	.urlbar-input-container {
+	  #urlbar-searchmode-switcher, #page-action-buttons {
+		display: none !important;
+	  }
+		text-align: center !important;
+		position: relative;
+	}
+}
