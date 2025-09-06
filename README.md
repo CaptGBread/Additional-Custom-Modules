@@ -1,15 +1,14 @@
 # Additional-Custom-Modules
 A simple, tiny additional custom modules to my own liking. I created this repo solely because I want to use it easily with Sine.
 
-<img width="1365" height="706" alt="Screenshot 2025-09-05 130330" src="https://github.com/user-attachments/assets/2b18cb77-9796-462e-8127-8046bdb6243a" />
+<img width="1365" height="710" alt="Screenshot 2025-09-06 224013" src="https://github.com/user-attachments/assets/13839884-ca13-481d-af89-93253d2f0190" />
 
 ### Features
 
 - Custom Toolbar Icon
 - Modified Window Control Button
 - Clean New Tab Button
-- Disable Zen Dark Tint
-- Fullscreen Compact Mode
+- Color and URL Bar Tweaks
 
 This is my personal repository. All of the original codes belong to each their respective owners. I only modified them to fits my needs.
 
