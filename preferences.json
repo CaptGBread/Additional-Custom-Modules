@@ -34,6 +34,14 @@
     "defaultValue": true
   },
 
+
+{
+    "property": "additionalcm.extra-tweaks",
+    "label": "Color and URL Bar Tweaks",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+
 {
     "property": "additionalcm.disable_tint",
     "label": "Disable Zen Dark Tint",
@@ -42,6 +50,7 @@
   }
 
 ]
+
 
 
 
