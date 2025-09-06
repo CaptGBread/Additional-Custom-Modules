@@ -1,0 +1,21 @@
+/* Veertical Line For Folder. Created by JustADumbPrsn, I Stole it from discord */
+
+@media -moz-pref("additionalcm.folder-styling") {
+	.tab-group-container {
+	  position: relative; /* required for pseudo-element */
+	}
+
+
+	.tab-group-container::after {
+	  content: "";
+	  position: absolute;
+	  opacity: 0.5;
+	  top: 2px;
+	  left: 8px;
+	  width: 3px;
+	  bottom: 4px;
+	  border-radius: 5px;
+	  background: var(--zen-primary-color);
+	  transition: background 0.3s ease, transform 0.2s ease;
+	}
+}
