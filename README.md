@@ -1,7 +1,8 @@
 # Additional-Custom-Modules
-A simple, tiny additional custom modules to my own liking. I created this repo solely because I want to use it easily with Sine.
+A simple, tiny additional custom modules to my own liking. I created this repo solely because I want to use it easily with Sine. 
 
-<img width="1365" height="710" alt="Screenshot 2025-09-06 224013" src="https://github.com/user-attachments/assets/13839884-ca13-481d-af89-93253d2f0190" />
+<img width="1365" height="711" alt="image" src="https://github.com/user-attachments/assets/67f97c28-99db-493a-94ea-02ed4d1adf63" />
+
 
 ### Features
 
@@ -9,18 +10,19 @@ A simple, tiny additional custom modules to my own liking. I created this repo s
 - Modified Window Control Button
 - Clean New Tab Button
 - Color and URL Bar Tweaks
+- Vertical Line for Folders
 
-This is my personal repository. All of the original codes belong to each their respective owners. I only modified them to fits my needs.
+This is just my personal repository. All of the original codes belong to each their respective owners. I only modified them to fits my needs.
 
 ### Credits
-- [Zen Minimal Ext Menu](https://github.com/Dinno-DEV/zen-minimal-exit-menu) by Dinno-DEV
+- [Zen Minimal Exit Menu](https://github.com/Dinno-DEV/zen-minimal-exit-menu) by Dinno-DEV
 - [Zen Better New Tab Button](https://github.com/themaster5209/zen-better-new-tab-button) by themaster5209
 - [Arcline](https://github.com/ferrocyante/Arcline) by ferrocyante
 - [Transparent Zen](https://github.com/sameerasw/zen-themes/tree/main/TransparentZen) by sameerasw
 - https://icon-sets.iconify.design/ SVG used for Custom Toolbar Icon
 
 ### Custom CSS Snippets for Bonjourr
-I use Bonjourr for my newtab page, and I decided to sprinkle some CSS on top of it because why not.
+I use Bonjourr for my newtab page, and I decided to sprinkle some CSS on top of it because why not. Putting this here so I wont lose it for whatever reason.
 
 <details>
 	
@@ -147,3 +149,5 @@ I use Bonjourr for my newtab page, and I decided to sprinkle some CSS on top of 
 }
 ```
 </details>
+
+Please keep in mind all of this is solely based of my preferences. This is just my personal repo to use with sine, if you somehow found this repo for whatever reason then idk. You may use this for your (whatever), just be sure to check out and credits the original author I guess...
