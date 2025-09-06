@@ -17,7 +17,7 @@
     "property": "additionalcm.toolbar_icon_alt",
     "label": "Custom Toolbar Icon",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": true
   },
 
 {
@@ -27,29 +27,24 @@
     "defaultValue": true
   },
 
-{
-    "property": "additionalcm.fullscreen-compact",
-    "label": "Full Screen Compact Mode",
-    "type": "checkbox",
-    "defaultValue": true
-  },
 
 
 {
     "property": "additionalcm.extra-tweaks",
     "label": "Color and URL Bar Tweaks",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": true
   },
 
 {
-    "property": "additionalcm.disable_tint",
-    "label": "Disable Zen Dark Tint",
+    "property": "additionalcm.folder-styling",
+    "label": "Vertical Line for Folder",
     "type": "checkbox",
     "defaultValue": true
   }
 
 ]
+
 
 
 
