@@ -1,10 +1,4 @@
 @media -moz-pref("additionalcm.extra-tweaks") {
-	.urlbarView-body-inner {
-	  #urlbar[open] > .urlbarView > .urlbarView-body-outer > & {
-		border-top: 1px solid rgba(255, 255, 255, 0.25) !important;
-	  }
-	}
-	
 /* URL Bar Tweaks */
 	#urlbar .urlbar-input,
 	.urlbar-input-container {
@@ -16,4 +10,5 @@
 	}
 
 }
+
 
