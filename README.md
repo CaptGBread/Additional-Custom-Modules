@@ -1,7 +1,8 @@
 # Additional-Custom-Modules
-A simple, tiny additional custom modules to my own liking. I created this repo solely because I want to use it easily with Sine. 
+A simple, tiny additional custom modules to my own liking. I created this repo solely because I want to use it easily with Sine.
 
-<img width="1365" height="711" alt="image" src="https://github.com/user-attachments/assets/67f97c28-99db-493a-94ea-02ed4d1adf63" />
+<img width="1365" height="713" alt="image" src="https://github.com/user-attachments/assets/3f83243e-a907-4704-9c17-c976cdff8f11" />
+
 
 
 ### Features
@@ -9,16 +10,13 @@ A simple, tiny additional custom modules to my own liking. I created this repo s
 - Custom Toolbar Icon
 - Modified Window Control Button
 - Clean New Tab Button
-- Color and URL Bar Tweaks
-- Vertical Line for Folders
+- URL Bar Tweaks
 
 This is just my personal repository. All of the original codes belong to each their respective owners. I only modified them to fits my needs.
 
 ### Credits
 - [Zen Minimal Exit Menu](https://github.com/Dinno-DEV/zen-minimal-exit-menu) by Dinno-DEV
 - [Zen Better New Tab Button](https://github.com/themaster5209/zen-better-new-tab-button) by themaster5209
-- [Arcline](https://github.com/ferrocyante/Arcline) by ferrocyante
-- [Transparent Zen](https://github.com/sameerasw/zen-themes/tree/main/TransparentZen) by sameerasw
 - https://icon-sets.iconify.design/ SVG used for Custom Toolbar Icon
 
 ### Custom CSS Snippets for Bonjourr
