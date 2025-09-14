@@ -1,0 +1,31 @@
+@media -moz-pref("additionalcm.fullscreen-compact") {
+
+  :root[zen-compact-mode="true"]:not([customizing]) {
+    #zen-appcontent-wrapper:not(
+      :has(#tabbrowser-tabpanels[zen-split-view]),
+      :has(#zen-sidebar-web-panel:not([hidden]):not([pinned]))
+    ) {
+      margin: 0 !important;
+
+      #zen-tabbox-wrapper {
+        margin: 0 !important;
+      }
+
+      @media (-moz-pref("zen.view.use-single-toolbar")) {
+        #zen-appcontent-wrapper {
+          position: relative;
+        }
+
+        #zen-appcontent-navbar-wrapper {
+          position: absolute;
+          width: 100% !important;
+          height: 50px; /* Optional: thicker navbar */
+          backdrop-filter: blur(30px) saturate(110%) contrast(110%);
+          background: var(--zen-main-browser-background) !important;
+          border-bottom: 1.7px solid
+            light-dark(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.1));
+        }
+      }
+    }
+  }
+}
