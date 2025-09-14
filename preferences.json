@@ -27,23 +27,15 @@
     "defaultValue": true
   },
 
-
-
 {
     "property": "additionalcm.extra-tweaks",
-    "label": "Color and URL Bar Tweaks",
-    "type": "checkbox",
-    "defaultValue": true
-  },
-
-{
-    "property": "additionalcm.folder-styling",
-    "label": "Vertical Line for Folder",
+    "label": "URL Bar Tweaks",
     "type": "checkbox",
     "defaultValue": true
   }
 
 ]
+
 
 
 
