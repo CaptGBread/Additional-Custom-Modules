@@ -28,6 +28,13 @@
   },
 
 {
+    "property": "additionalcm.fullscreen-compact",
+    "label": "Full Compact Mode (Single Toolbar Only)",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+
+{
     "property": "additionalcm.extra-tweaks",
     "label": "URL Bar Tweaks",
     "type": "checkbox",
@@ -35,6 +42,7 @@
   }
 
 ]
+
 
 
 
