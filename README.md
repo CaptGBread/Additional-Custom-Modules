@@ -1,20 +1,21 @@
 # Additional-Custom-Modules
 A simple, tiny additional custom modules to my own liking. I created this repo solely because I want to use it easily with Sine.
 
-<img width="1365" height="713" alt="image" src="https://github.com/user-attachments/assets/3f83243e-a907-4704-9c17-c976cdff8f11" />
-
-
+<img width="1365" height="710" alt="Screenshot 2025-09-18 112100" src="https://github.com/user-attachments/assets/0333194c-94f0-47b9-a2e4-b7c41a75328c" />
 
 ### Features
 
 - Custom Toolbar Icon
 - Modified Window Control Button
 - Clean New Tab Button
-- URL Bar Tweaks
+- Center Aligned URL Bar
+- Hide Pinned Tabs and URL Bar Separator
 
 This is just my personal repository. All of the original codes belong to each their respective owners. I only modified them to fits my needs.
 
 ### Credits
+- [Zen Nebula](https://github.com/JustADumbPrsn/Zen-Nebula) by JustAdumbPrsn
+- [Arc2.0](https://github.com/YashjitPal/Arc-2.0/) by YashjitPal
 - [Zen Minimal Exit Menu](https://github.com/Dinno-DEV/zen-minimal-exit-menu) by Dinno-DEV
 - [Zen Better New Tab Button](https://github.com/themaster5209/zen-better-new-tab-button) by themaster5209
 - https://icon-sets.iconify.design/ SVG used for Custom Toolbar Icon
@@ -148,4 +149,46 @@ I use Bonjourr for my newtab page, and I decided to sprinkle some CSS on top of 
 ```
 </details>
 
-Please keep in mind all of this is solely based of my preferences. This is just my personal repo to use with sine, if you somehow found this repo for whatever reason then idk. You may use this for your (whatever), just be sure to check out and credits the original author I guess...
+### Custom Preset For DWMBlurGlass
+I use DWMBlurGlass for transparency and blur effect because it offers many option and features. Putting my config here just incase I lost it.
+
+<details>
+	
+<summary> Show Config </summary>
+
+```ini
+[config]
+applyglobal=true
+extendBorder=false
+reflection=false
+oldBtnHeight=false
+customAmount=true
+crossFade=true
+useAccentColor=false
+blurAmount=20.000000
+customBlurAmount=30.000000
+luminosityOpacity=0.000000
+activeTextColor=4294967295
+inactiveTextColor=4290032820
+activeTextColorDark=4294967295
+inactiveTextColorDark=4290032820
+activeBlendColor=0
+inactiveBlendColor=1315860
+activeBlendColorDark=0
+inactiveBlendColorDark=0
+glassIntensity=1.000000
+aeroColorBalance=0.080000
+aeroAfterglowBalance=0.430000
+aeroBlurBalance=0.490000
+blurMethod=0
+effectType=2
+crossfadeTime=160
+overrideAccent=false
+occlusionCulling=false
+disableOnBattery=false
+titlebtnGlow=false
+disableFramerateLimit=false
+```
+</details>
+
+All of this is solely based of my preferences. This is just my personal repo to use with sine, if you somehow found this repo for whatever reason then idk. You may use this for your (whatever), just be sure to check out and credits the original author I guess...
