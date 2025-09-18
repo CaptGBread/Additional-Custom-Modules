@@ -1,4 +1,4 @@
-@media -moz-pref("additionalcm.extra-tweaks") {
+@media -moz-pref("additionalcm.center-urlbar") {
 /* URL Bar Tweaks */
 	#urlbar .urlbar-input,
 	.urlbar-input-container {
@@ -11,4 +11,17 @@
 
 }
 
+@media -moz-pref("additionalcm.separator-urlbar") {
+	.urlbarView-body-inner {
+		#urlbar[open] > .urlbarView > .urlbarView-body-outer > & {
+			border-top: 0px solid rgba(255, 255, 255, 0.25) !important;
+		}
+	}
+}
+
+@media -moz-pref("additionalcm.separator-pinned") {
+	.pinned-tabs-container-separator {
+		display: none !important;
+	}
+}
 
