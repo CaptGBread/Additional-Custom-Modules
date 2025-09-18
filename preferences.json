@@ -1,7 +1,7 @@
 [
 {
     "type": "text",
-    "label": "Preferences Settings",
+    "label": "Modules Preferences",
     "margin": "30px 0 15px 0",
     "size": "20px"
   },
@@ -56,6 +56,7 @@
   }
 
 ]
+
 
 
 
