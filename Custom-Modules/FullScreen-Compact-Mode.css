@@ -1,4 +1,4 @@
-@media -moz-pref("additionalcm.fullscreen-compact") {
+@media -moz-pref("additionalcm.fullscreen_compact") {
 
   :root[zen-compact-mode="true"]:not([customizing]) {
     #zen-appcontent-wrapper:not(
