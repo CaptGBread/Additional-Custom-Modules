@@ -28,20 +28,35 @@
   },
 
 {
-    "property": "additionalcm.fullscreen-compact",
+    "property": "additionalcm.fullscreen_compact",
     "label": "Full Compact Mode (Single Toolbar Only)",
     "type": "checkbox",
     "defaultValue": true
   },
 
 {
-    "property": "additionalcm.extra-tweaks",
-    "label": "URL Bar Tweaks",
+    "property": "additionalcm.center_urlbar",
+    "label": "Center Aligned URL Bar",
     "type": "checkbox",
     "defaultValue": true
+  },
+
+{
+    "property": "additionalcm.separator_urlbar",
+    "label": "Hide URL Bar Separator",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+
+{
+    "property": "additionalcm.separator_pinned",
+    "label": "Hide Pinned Tabs Separator",
+    "type": "checkbox",
+    "defaultValue": false
   }
 
 ]
+
 
 
 
