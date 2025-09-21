@@ -2,13 +2,24 @@
 /* URL Bar Tweaks */
 	#urlbar .urlbar-input,
 	.urlbar-input-container {
-	  #urlbar-searchmode-switcher, #page-action-buttons {
-		display: none !important;
-	  }
-		text-align: center !important;
-		position: relative;
+		  #urlbar-searchmode-switcher {
+			display: none !important;
+		  }
+			text-align: center !important;
+			position: relative;
+		}
+	
+	.urlbarView-body-inner {
+			#urlbar[open] > .urlbarView > .urlbarView-body-outer > & {
+				border-top: 0px solid rgba(255, 255, 255, 0.25) !important;
+			}
+		}
+		
+	#urlbar[open] {
+		#identity-icon-box.identity-box-button, #page-action-buttons {
+			display: none !important;
+		}
 	}
-
 }
 
 @media -moz-pref("additionalcm.separator_urlbar") {
@@ -24,5 +35,6 @@
 		display: none !important;
 	}
 }
+
 
 
